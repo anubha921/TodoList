@@ -38,7 +38,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 <!-- Screenshots -->
 ### :camera: Screenshots
 
-![TodoList](https://user-images.githubusercontent.com/59173421/213868070-79eeb4d8-3ffd-426d-b970-637a7d02fd93.PNG)
+![TodoList](https://user-images.githubusercontent.com/59173421/215271589-175da854-b65b-4af8-91a5-7d6dcb100f1a.PNG)
 
 <!-- Live link for website -->
 ## :star2: Live link for website
