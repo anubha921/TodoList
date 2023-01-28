@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+/* for desktop screen size */
+body{
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeContainer {
+  width: 50%;
+  margin-top: 5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.new-task-input{
+  height: 3rem;
+  width: 35rem;
+  border-radius: 12px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.task-list{
+  background-color: #619eb9;
+  font-size: 1.7rem;
+}
+.add-btn{
+  background-color: #afa5da;
+  border: none;
+  border-radius: 10px;
+  font-size: x-large;
+  padding: 4px 21px;
+  margin: 0px 10px;
+}
+.remove-btn{
+  background-color: #216482;
   color: white;
+  float: right;
+  font-size: 1.3rem;
+  margin-top: 2px;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 21px;
+}
+.remove-all-btn{
+  background-color: #9c90cc;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  font-size: x-large;
+  margin-top: 26px;
+  padding: 4px 21px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* for tablet screen */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 572px) and (max-width: 692px){
+  .new-task-input{
+    height: 2.5rem;
+    width: 12rem;
+    border-radius: 9px;
   }
-  to {
-    transform: rotate(360deg);
+  .add-btn{
+    font-size: large;
+  }
+  .remove-btn{
+    font-size: large;
+    padding: 5px 10px;
+  }
+  .remove-all-btn{
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 692px) and (max-width: 1300px) {
+  .new-task-input{
+    height: 2.5rem;
+    width: 15.5rem;
+    border-radius: 9px;
+  }
+  .add-btn{
+    font-size: large;
+  }
+  .remove-btn{
+    font-size: large;
+    padding: 5px 10px;
+  }
+  .remove-all-btn{
+    font-size: large;
+  }
+}
+
+/* for mobile screen */ 
+@media screen and (max-width: 572px) {
+  .homeContainer {
+    width: 90%;
+  }
+  .new-task-input{
+    height: 2.5rem;
+    width: 10.9rem;
+    border-radius: 9px;
+  }
+  .add-btn{
+    font-size: large;
+  }
+  .remove-btn{
+    font-size: large;
+    padding: 5px 10px;
+  }
+  .remove-all-btn{
+    font-size: large;
   }
 }
